@@ -1,0 +1,15 @@
+project_id: example
+mode: guided
+current_phase: complete
+requirements_version: 1.0
+gate_status: approved
+dt_handoff: approved
+sdlc_release: approved
+final_acceptance: approved
+confirmed: []
+assumptions: []
+open_questions: []
+artifacts: {}
+required_tests: []
+passed_tests: []
+known_limitations: []

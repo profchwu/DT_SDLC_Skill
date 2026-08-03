@@ -1,0 +1,15 @@
+project_id: ""
+mode: guided
+current_phase: dt-empathize
+requirements_version: 0.1
+gate_status: pending
+dt_handoff: pending
+sdlc_release: pending
+final_acceptance: pending
+confirmed: []
+assumptions: []
+open_questions: []
+artifacts: {}
+required_tests: []
+passed_tests: []
+known_limitations: []

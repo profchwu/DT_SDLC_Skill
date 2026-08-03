@@ -1,0 +1,29 @@
+# Publish allowlist: keep local development and teaching files out of GitHub.
+*
+!.gitignore
+!README.md
+!THIRD_PARTY_NOTICES.md
+!INSTALL_SKILLS.ps1
+!installable-skills/
+!installable-skills/**
+!assets/
+!assets/images/
+!assets/images/dt-sdlc-development-flow.svg
+
+# Never publish generated or sensitive content, including if later moved under an allowed path.
+**/node_modules/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.key
+**/*.pem
+**/*.pfx
+**/*.p12
+**/*.log
+**/dist/
+**/build/
+**/coverage/
+**/tmp/
+**/temp/
+**/*.tmp
+**/~$*

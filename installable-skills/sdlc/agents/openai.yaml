@@ -1,0 +1,4 @@
+interface:
+  display_name: "Software Development Life Cycle (SDLC)"
+  short_description: "Turn approved requirements into tested, releasable software"
+  default_prompt: "Use $sdlc to plan, build, verify, and deliver this software project."

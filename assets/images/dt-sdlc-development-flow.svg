@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">DT 至 SDLC 開發流程</title>
+  <desc id="desc">設計思考五階段經需求交接進入軟體開發生命週期六階段，每一步包含英文縮寫。</desc>
+  <defs>
+    <linearGradient id="orange" x2="1"><stop stop-color="#f97316"/><stop offset="1" stop-color="#ea580c"/></linearGradient>
+    <linearGradient id="blue" x2="1"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-opacity=".13"/></filter>
+    <marker id="ao" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9Z" fill="#ea580c"/></marker>
+    <marker id="ab" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9Z" fill="#1d4ed8"/></marker>
+    <marker id="at" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9Z" fill="#0f766e"/></marker>
+    <style>
+      text{font-family:"Noto Sans TC","Microsoft JhengHei",Arial,sans-serif;fill:#172033}
+      .title{font-size:54px;font-weight:800}.head{font-size:28px;font-weight:800;fill:#fff}
+      .zh{font-size:25px;font-weight:800}.en{font-size:14px;font-weight:750}.enlong{font-size:12px;font-weight:750}
+      .num{font-size:18px;font-weight:800;fill:#fff}.loop{font-size:21px;font-weight:800;fill:#fff}
+    </style>
+  </defs>
+  <rect width="1600" height="720" rx="28" fill="#fffdf9"/>
+  <text x="800" y="70" text-anchor="middle" class="title"><tspan fill="#ea580c">DT</tspan><tspan> → </tspan><tspan fill="#1d4ed8">SDLC</tspan><tspan> 開發流程</tspan></text>
+  <rect x="55" y="105" width="675" height="60" rx="30" fill="url(#orange)" filter="url(#shadow)"/>
+  <text x="392" y="144" text-anchor="middle" class="head">設計思考 Design Thinking（DT）</text>
+  <rect x="880" y="105" width="665" height="60" rx="30" fill="url(#blue)" filter="url(#shadow)"/>
+  <text x="1212" y="144" text-anchor="middle" class="head">軟體開發生命週期（SDLC）</text>
+
+  <!-- DT stages -->
+  <g transform="translate(30 215)"><rect width="130" height="215" rx="24" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/><circle cx="65" cy="62" r="34" fill="#fff" stroke="#ea580c" stroke-width="4"/><circle cx="65" cy="53" r="10" fill="#ea580c"/><path d="M44 82c3-16 39-16 42 0" fill="none" stroke="#ea580c" stroke-width="7"/><text x="65" y="130" text-anchor="middle" class="zh">同理</text><text x="65" y="158" text-anchor="middle" class="en" fill="#c2410c">Empathize</text><circle cx="65" cy="-18" r="19" fill="#ea580c"/><text x="65" y="-11" text-anchor="middle" class="num">1</text></g>
+  <g transform="translate(175 215)"><rect width="130" height="215" rx="24" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/><circle cx="65" cy="62" r="34" fill="#fff" stroke="#ea580c" stroke-width="4"/><circle cx="62" cy="64" r="18" fill="none" stroke="#ea580c" stroke-width="5"/><circle cx="62" cy="64" r="7" fill="none" stroke="#ea580c" stroke-width="4"/><path d="M62 64l24-24M76 40h10v10" fill="none" stroke="#ea580c" stroke-width="5"/><text x="65" y="130" text-anchor="middle" class="zh">定義</text><text x="65" y="158" text-anchor="middle" class="en" fill="#c2410c">Define</text><circle cx="65" cy="-18" r="19" fill="#ea580c"/><text x="65" y="-11" text-anchor="middle" class="num">2</text></g>
+  <g transform="translate(320 215)"><rect width="130" height="215" rx="24" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/><circle cx="65" cy="62" r="34" fill="#fff" stroke="#ea580c" stroke-width="4"/><path d="M49 58a16 16 0 1 1 32 0c0 10-8 12-9 21H58c-1-9-9-11-9-21zM58 87h14" fill="none" stroke="#ea580c" stroke-width="4"/><text x="65" y="130" text-anchor="middle" class="zh">發想</text><text x="65" y="158" text-anchor="middle" class="en" fill="#c2410c">Ideate</text><circle cx="65" cy="-18" r="19" fill="#ea580c"/><text x="65" y="-11" text-anchor="middle" class="num">3</text></g>
+  <g transform="translate(465 215)"><rect width="130" height="215" rx="24" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/><circle cx="65" cy="62" r="34" fill="#fff" stroke="#ea580c" stroke-width="4"/><rect x="42" y="43" width="46" height="38" rx="3" fill="none" stroke="#ea580c" stroke-width="4"/><path d="M42 53h46M51 63h12M51 72h28" stroke="#ea580c" stroke-width="3"/><text x="65" y="130" text-anchor="middle" class="zh">原型</text><text x="65" y="158" text-anchor="middle" class="en" fill="#c2410c">Prototype</text><circle cx="65" cy="-18" r="19" fill="#ea580c"/><text x="65" y="-11" text-anchor="middle" class="num">4</text></g>
+  <g transform="translate(610 215)"><rect width="130" height="215" rx="24" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/><circle cx="65" cy="62" r="34" fill="#fff" stroke="#ea580c" stroke-width="4"/><rect x="47" y="39" width="36" height="48" rx="3" fill="none" stroke="#ea580c" stroke-width="4"/><path d="M54 53l5 5 9-10M54 69l5 5 9-10" fill="none" stroke="#ea580c" stroke-width="3"/><text x="65" y="130" text-anchor="middle" class="zh">測試</text><text x="65" y="158" text-anchor="middle" class="en" fill="#c2410c">Test</text><circle cx="65" cy="-18" r="19" fill="#ea580c"/><text x="65" y="-11" text-anchor="middle" class="num">5</text></g>
+  <path d="M160 322h15M305 322h15M450 322h15M595 322h15" stroke="#ea580c" stroke-width="5" marker-end="url(#ao)"/>
+
+  <!-- handoff -->
+  <rect x="760" y="215" width="100" height="215" rx="48" fill="#ecfdf5" stroke="#0f766e" stroke-width="3" filter="url(#shadow)"/>
+  <circle cx="810" cy="275" r="31" fill="#0f766e"/><path d="M783 277l17-14 10 9 10-9 17 14M795 286l10 10M825 286l-10 10" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <text x="810" y="342" text-anchor="middle" class="zh" fill="#0f766e"><tspan x="810">需求</tspan><tspan x="810" dy="31">交接</tspan></text><text x="810" y="405" text-anchor="middle" class="en" fill="#0f766e">Handoff</text>
+  <path d="M740 322h20M860 322h20" stroke="#0f766e" stroke-width="5" marker-end="url(#at)"/>
+
+  <!-- SDLC stages -->
+  <g transform="translate(880 215)"><rect width="105" height="215" rx="22" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/><circle cx="52" cy="62" r="31" fill="#fff" stroke="#1d4ed8" stroke-width="4"/><path d="M42 74l5-20 18-10-8 19zM43 76l-8 8M58 47l8 8" fill="none" stroke="#1d4ed8" stroke-width="4"/><text x="52" y="130" text-anchor="middle" class="zh">啟動</text><text x="52" y="158" text-anchor="middle" class="en" fill="#1e40af">Initiate</text><circle cx="52" cy="-18" r="19" fill="#1d4ed8"/><text x="52" y="-11" text-anchor="middle" class="num">1</text></g>
+  <g transform="translate(995 215)"><rect width="105" height="215" rx="22" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/><circle cx="52" cy="62" r="31" fill="#fff" stroke="#1d4ed8" stroke-width="4"/><rect x="37" y="40" width="30" height="44" rx="3" fill="none" stroke="#1d4ed8" stroke-width="4"/><path d="M43 51h18M43 62h18M43 73h14" stroke="#1d4ed8" stroke-width="3"/><text x="52" y="130" text-anchor="middle" class="zh">需求</text><text x="52" y="158" text-anchor="middle" class="enlong" fill="#1e40af">Requirements</text><circle cx="52" cy="-18" r="19" fill="#1d4ed8"/><text x="52" y="-11" text-anchor="middle" class="num">2</text></g>
+  <g transform="translate(1110 215)"><rect width="105" height="215" rx="22" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/><circle cx="52" cy="62" r="31" fill="#fff" stroke="#1d4ed8" stroke-width="4"/><path d="M34 48h14v12H34zM58 48h14v12H58zM46 70h14v12H46zM48 54h10M53 60v10" fill="none" stroke="#1d4ed8" stroke-width="3"/><text x="52" y="130" text-anchor="middle" class="zh">設計</text><text x="52" y="158" text-anchor="middle" class="en" fill="#1e40af">Design</text><circle cx="52" cy="-18" r="19" fill="#1d4ed8"/><text x="52" y="-11" text-anchor="middle" class="num">3</text></g>
+  <g transform="translate(1225 215)"><rect width="105" height="215" rx="22" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/><circle cx="52" cy="62" r="31" fill="#fff" stroke="#1d4ed8" stroke-width="4"/><path d="M42 48L30 62l12 14M62 48l12 14-12 14M58 41L47 82" fill="none" stroke="#1d4ed8" stroke-width="4" stroke-linecap="round"/><text x="52" y="130" text-anchor="middle" class="zh">建置</text><text x="52" y="158" text-anchor="middle" class="en" fill="#1e40af">Build</text><circle cx="52" cy="-18" r="19" fill="#1d4ed8"/><text x="52" y="-11" text-anchor="middle" class="num">4</text></g>
+  <g transform="translate(1340 215)"><rect width="105" height="215" rx="22" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/><circle cx="52" cy="62" r="31" fill="#fff" stroke="#1d4ed8" stroke-width="4"/><path d="M52 40l20 8v14c0 13-8 21-20 26-12-5-20-13-20-26V48z" fill="#1d4ed8"/><path d="M41 62l8 8 14-17" fill="none" stroke="#fff" stroke-width="4"/><text x="52" y="130" text-anchor="middle" class="zh">驗證</text><text x="52" y="158" text-anchor="middle" class="en" fill="#1e40af">Verify</text><circle cx="52" cy="-18" r="19" fill="#1d4ed8"/><text x="52" y="-11" text-anchor="middle" class="num">5</text></g>
+  <g transform="translate(1455 215)"><rect width="120" height="215" rx="22" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/><circle cx="60" cy="62" r="31" fill="#fff" stroke="#1d4ed8" stroke-width="4"/><path d="M43 69a17 17 0 0 1 32-8 13 13 0 0 1-1 25H47a9 9 0 0 1-4-17zM60 78V57M52 65l8-8 8 8" fill="none" stroke="#1d4ed8" stroke-width="4"/><text x="60" y="124" text-anchor="middle" class="zh"><tspan x="60">發布與</tspan><tspan x="60" dy="29">維運</tspan></text><text x="60" y="180" text-anchor="middle" class="enlong" fill="#1e40af"><tspan x="60">Release &amp;</tspan><tspan x="60" dy="15">Operate</tspan></text><circle cx="60" cy="-18" r="19" fill="#1d4ed8"/><text x="60" y="-11" text-anchor="middle" class="num">6</text></g>
+  <path d="M985 322h10M1100 322h10M1215 322h10M1330 322h10M1445 322h10" stroke="#1d4ed8" stroke-width="5" marker-end="url(#ab)"/>
+
+  <!-- feedback loops -->
+  <path d="M675 430v95c0 34-25 54-55 54H240c-34 0-54-20-54-54v-80" fill="none" stroke="#ea580c" stroke-width="5" marker-end="url(#ao)"/>
+  <rect x="335" y="548" width="205" height="55" rx="18" fill="#ea580c"/><text x="438" y="584" text-anchor="middle" class="loop">使用者核准</text>
+  <path d="M1392 430v95c0 34-25 54-55 54h-240c-34 0-54-20-54-54v-80" fill="none" stroke="#1d4ed8" stroke-width="5" marker-end="url(#ab)"/>
+  <rect x="1118" y="548" width="210" height="55" rx="18" fill="#1d4ed8"/><text x="1223" y="584" text-anchor="middle" class="loop">變更與回饋</text>
+</svg>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Thinking (DT)"
+  short_description: "Guide discovery, ideation, prototypes, and user validation"
+  default_prompt: "Use $dt to clarify the users, problem, options, and prototype test plan."

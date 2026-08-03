@@ -1,0 +1,4 @@
+interface:
+  display_name: "DT to SDLC Orchestrator"
+  short_description: "Guide a project from discovery through verified delivery"
+  default_prompt: "Use $dt-sdlc in guided mode to start this idea quickly; present comprehensive numbered choices with a text fallback for each decision, then wait before research or artifacts."
