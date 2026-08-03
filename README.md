@@ -2,11 +2,23 @@
 
 一組將 Design Thinking（DT）需求探索銜接至 Software Development Life Cycle（SDLC）交付流程的 Codex Skills，協助使用者從問題定義、方案驗證、需求與架構設計，一路進行實作、測試、部署規劃及最終驗收。
 
+## 本 Skill 的目的
+
+![DT–SDLC Skill 的目的](assets/images/dt-sdlc-skill-purpose.svg)
+
+本專案提供三個可獨立或搭配使用的 Skill：
+
+- `dt`：在需求仍模糊時，理解使用者、利害關係人、情境、痛點與證據，形成可驗證的問題定義及方案。
+- `sdlc`：把已核准的需求轉換為架構、實作計畫、測試、部署、安全與維運方案。
+- `dt-sdlc`：串接前兩者，保存決策、控制階段核准、需求變更與追溯性，直到產品驗收。
+
+適合用於新產品構想、網站或 App 規劃、教學案例、AI 功能設計，以及需求不完整或涉及多方決策的軟體專案。它會依需求複雜度動態決定提問深度，只詢問會影響範圍、體驗、架構、安全或驗收的關鍵缺口。
+
 ## 專案資訊
 
 - 作者：National Tsing Hua University, Professor Chih-Hung Wu
-- 目前版本：1.1.0
-- 發布狀態：準備發布至 GitHub
+- 目前版本：1.1.1
+- 發布狀態：已公開發布至 GitHub
 - Skills：`dt`、`sdlc`、`dt-sdlc`
 
 版本採語意化版本：Patch 是相容修補；Minor 是向下相容的新功能；Major 是不相容變更。
@@ -42,13 +54,54 @@
 
 ## 安裝
 
-在 Windows PowerShell 進入專案根目錄後執行：
+![DT–SDLC Skill 安裝流程](assets/images/dt-sdlc-installation-flow.svg)
+
+### 方法一：Windows 快速安裝（建議）
+
+需要先安裝 [Git](https://git-scm.com/downloads) 與 Codex。開啟 PowerShell，依序執行：
 
 ```powershell
+git clone https://github.com/profchwu/DT_SDLC_Skill.git
+cd DT_SDLC_Skill
 .\INSTALL_SKILLS.ps1
 ```
 
-或將 `installable-skills` 下的 `dt`、`sdlc`、`dt-sdlc` 三個資料夾完整複製到 `$CODEX_HOME/skills`。若未設定 `CODEX_HOME`，Windows 通常使用 `%USERPROFILE%\.codex\skills`。完成後重新啟動 Codex 或開啟新的工作階段。
+安裝程式會將 `dt`、`sdlc`、`dt-sdlc` 複製到 `$CODEX_HOME/skills`；若未設定 `CODEX_HOME`，預設安裝到 `%USERPROFILE%\.codex\skills`。
+
+### 方法二：手動安裝（Windows、macOS、Linux）
+
+1. 下載或 clone 本儲存庫。
+2. 找到 Codex Skill 目錄：`$CODEX_HOME/skills`；若未設定，通常是 `~/.codex/skills`。
+3. 將下列三個完整資料夾複製到 Skill 目錄：
+
+```text
+installable-skills/dt
+installable-skills/sdlc
+installable-skills/dt-sdlc
+```
+
+4. 重新啟動 Codex，或開啟新的工作階段。
+
+### 驗證安裝
+
+確認 Skill 目錄包含以下結構：
+
+```text
+skills/
+├── dt/SKILL.md
+├── sdlc/SKILL.md
+└── dt-sdlc/SKILL.md
+```
+
+接著在 Codex 輸入以下任一範例：
+
+```text
+請使用 dt-sdlc，協助我從產品構想到可部署的網站。
+請使用 dt，釐清這個 App 的使用者需求。
+請使用 sdlc，把已確認的需求規劃成可測試與部署的系統。
+```
+
+若 Codex 能載入對應 Skill 並開始進行精簡、動態的需求確認，即表示安裝成功。
 
 ## 部署至 GitHub
 
@@ -72,6 +125,8 @@
 - `THIRD_PARTY_NOTICES.md`
 - `.gitignore`
 - `assets/images/dt-sdlc-development-flow.svg`
+- `assets/images/dt-sdlc-skill-purpose.svg`
+- `assets/images/dt-sdlc-installation-flow.svg`
 
 本機的 `docs/`、`assets/`、`slides/`、`tools/`、`node_modules/`、`package.json` 及其他教學或開發檔案不會加入 GitHub。
 
