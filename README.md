@@ -1,5 +1,9 @@
 # DT–SDLC Codex Skills
 
+**作者：國立清華大學 數理教育研究所 吳智鴻教授 開發**
+
+Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu
+
 一組將 Design Thinking（DT）需求探索銜接至 Software Development Life Cycle（SDLC）交付流程的 Codex Skills，協助使用者從問題定義、方案驗證、需求與架構設計，一路進行實作、測試、部署規劃及最終驗收。
 
 ## 本 Skill 的目的
