@@ -5,6 +5,10 @@ description: Convert approved requirements into designed, implemented, tested, d
 
 # Software Development Life Cycle
 
+國立清華大學 數理教育研究所 吳智鴻教授 開發
+
+Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu
+
 Start from an approved project brief or establish a requirements baseline. Preserve existing user work and keep requirements, implementation, and tests traceable.
 
 ## Workflow

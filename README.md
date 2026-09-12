@@ -16,8 +16,8 @@
 
 ## 專案資訊
 
-- 作者：National Tsing Hua University, Professor Chih-Hung Wu
-- 目前版本：1.1.2
+- 作者：國立清華大學 數理教育研究所 吳智鴻教授 開發
+- 目前版本：1.1.3
 - 發布狀態：已公開發布至 GitHub
 - Skills：`dt`、`sdlc`、`dt-sdlc`
 
@@ -156,7 +156,9 @@ skills/
 
 ## 著作權與第三方資料
 
-Copyright © 2026 National Tsing Hua University, Professor Chih-Hung Wu. All rights reserved.
+Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu
+
+All rights reserved.
 
 目前尚未指定開放原始碼授權。公開 GitHub 儲存庫只代表內容可被瀏覽，不表示授權他人複製、修改或散布。若希望其他人能安裝、修改及再散布，應在首次公開發布前選擇 MIT、Apache-2.0 或其他適合的授權。
 
