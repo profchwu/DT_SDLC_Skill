@@ -12,7 +12,7 @@ if (-not $Destination) {
 }
 
 New-Item -ItemType Directory -Force -Path $Destination | Out-Null
-foreach ($name in @('dt', 'sdlc', 'dt-sdlc')) {
+foreach ($name in @('dt', 'sdlc', 'dt-sdlc', 'game-design')) {
     $from = Join-Path $source $name
     $to = Join-Path $Destination $name
     if (Test-Path $to) {

@@ -10,22 +10,27 @@ Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu
 
 ![DT–SDLC Skill 的目的](assets/images/dt-sdlc-skill-purpose.svg)
 
-本專案提供三個可獨立或搭配使用的 Skill：
+本專案提供四個可獨立或搭配使用的 Skill：
 
 - `dt`：在需求仍模糊時，理解使用者、利害關係人、情境、痛點與證據，形成可驗證的問題定義及方案。
 - `sdlc`：把已核准的需求轉換為架構、實作計畫、測試、部署、安全與維運方案。
 - `dt-sdlc`：串接前兩者，保存決策、控制階段核准、需求變更與追溯性，直到產品驗收。
+- `game-design`：以證據標籤、盲評競賽、Hard Gates、G/R/D 與 R_edu，協助教育、研究與嚴肅遊戲從多方案探索走到人類核准、原型與測試。
 
 適合用於新產品構想、網站或 App 規劃、教學案例、AI 功能設計，以及需求不完整或涉及多方決策的軟體專案。它會依需求複雜度動態決定提問深度，只詢問會影響範圍、體驗、架構、安全或驗收的關鍵缺口。
 
 ## 專案資訊
 
 - 作者：國立清華大學 數理教育研究所 吳智鴻教授 開發
-- 目前版本：1.1.3
+- 目前版本：1.2.0
 - 發布狀態：已公開發布至 GitHub
-- Skills：`dt`、`sdlc`、`dt-sdlc`
+- Skills：`dt`、`sdlc`、`dt-sdlc`、`game-design`
 
 版本採語意化版本：Patch 是相容修補；Minor 是向下相容的新功能；Major 是不相容變更。
+
+### 1.2.0 更新：新增 game-design Skill
+
+新增由國立清華大學數理教育研究所吳智鴻教授開發的 `game-design` Skill，包含正式英文執行入口、繁體中文參考、教育遊戲 R_edu 診斷、G/R/D 評分、盲評競賽流程、COAST 教學案例、安裝說明、教學簡報與課程學習單。它可以獨立使用，也可以在需求探索完成後與 `dt-sdlc` 或 `sdlc` 串接。
 
 ### 1.1.2 更新：完成後才交付
 
@@ -74,7 +79,7 @@ cd DT_SDLC_Skill
 .\INSTALL_SKILLS.ps1
 ```
 
-安裝程式會將 `dt`、`sdlc`、`dt-sdlc` 複製到 `$CODEX_HOME/skills`；若未設定 `CODEX_HOME`，預設安裝到 `%USERPROFILE%\.codex\skills`。
+安裝程式會將 `dt`、`sdlc`、`dt-sdlc`、`game-design` 複製到 `$CODEX_HOME/skills`；若未設定 `CODEX_HOME`，預設安裝到 `%USERPROFILE%\.codex\skills`。
 
 ### 方法二：手動安裝（Windows、macOS、Linux）
 
@@ -86,6 +91,7 @@ cd DT_SDLC_Skill
 installable-skills/dt
 installable-skills/sdlc
 installable-skills/dt-sdlc
+installable-skills/game-design
 ```
 
 4. 重新啟動 Codex，或開啟新的工作階段。
@@ -98,7 +104,8 @@ installable-skills/dt-sdlc
 skills/
 ├── dt/SKILL.md
 ├── sdlc/SKILL.md
-└── dt-sdlc/SKILL.md
+├── dt-sdlc/SKILL.md
+└── game-design/SKILL.md
 ```
 
 接著在 Codex 輸入以下任一範例：
@@ -171,7 +178,7 @@ All rights reserved.
 ## 重要目錄
 
 ```text
-installable-skills/   可安裝的三個 Skills
+installable-skills/   可安裝的四個 Skills
 docs/                 系統說明、開發流程、教學與參考資料
 assets/               專案層級模板
 slides/               教學簡報成品
