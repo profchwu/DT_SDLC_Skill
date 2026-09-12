@@ -2,8 +2,11 @@
 
 - 建立者：National Tsing Hua University, Professor Chih-Hung Wu
 - 版本：1.2.0
+- 著作權：Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu. All rights reserved.
 
 本文件是根目錄 `SKILL.md` 的完整繁體中文參考版，供中文閱讀、教學與溝通使用。正式執行入口仍是根目錄的英文 `SKILL.md`；兩者應保持同步。
+
+本 Skill 由國立清華大學 吳智鴻教授開發。除另有書面授權外，著作權及相關權利保留。完整發布聲明請見 [COPYRIGHT.md](../COPYRIGHT.md)。
 
 ## Game Design
 

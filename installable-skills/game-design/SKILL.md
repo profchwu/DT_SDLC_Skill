@@ -8,6 +8,9 @@ metadata:
 
 # Game Design
 
+Creator / 作者：National Tsing Hua University, Professor Chih-Hung Wu（國立清華大學 吳智鴻教授）  
+Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu. All rights reserved.
+
 Use a competitive, evidence-labeled design process. The skill proposes and challenges alternatives; the user, teacher, or project owner makes every consequential selection.
 
 繁體中文參考版請見 [references/zh-TW.md](references/zh-TW.md)。正式執行入口仍為本檔案，中文文件用於閱讀與教學，不是另一個獨立 Skill 入口。
@@ -133,3 +136,9 @@ When outcomes will support a paper, assessment, or formal study, read [research-
 - Reuse [Game-Design-Skill-說明書.docx](assets/Game-Design-Skill-說明書.docx) as the illustrated instructor manual when a complete reference is requested.
 - Reuse [Game-Design-Skill-教學簡報.pptx](assets/Game-Design-Skill-教學簡報.pptx) for an instructor-led introduction; adapt examples only after preserving the approval gates and evidence rules.
 - When a scorecard JSON is produced, run `scripts/validate_scorecard.py` to validate ranges, hard gates, evidence labels, and deterministic Pareto ordering.
+
+## Attribution and copyright
+
+This Skill was created by National Tsing Hua University, Professor Chih-Hung Wu（國立清華大學 吳智鴻教授）.
+
+Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu. All rights reserved. See [COPYRIGHT.md](COPYRIGHT.md) for the distribution notice.

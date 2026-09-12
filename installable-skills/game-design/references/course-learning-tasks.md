@@ -1,5 +1,8 @@
 # Course Learning Tasks｜課程學習任務
 
+Creator / 作者：National Tsing Hua University, Professor Chih-Hung Wu（國立清華大學 吳智鴻教授）  
+Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu. All rights reserved.
+
 ## Course purpose
 
 By the end of the course, learners should be able to install and verify the `game-design` Skill, use it to create an evidence-labeled educational game brief, and defend a human design decision that may differ from an AI pre-ranking.
